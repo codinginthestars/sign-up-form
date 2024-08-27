@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 1rem;
+}
+
+@font-face {
+    font-family: Norse;
+    src: url("./assets/Norse-Bold.otf") format("opentype");
+}
+
+#page-container {
+    display: flex;
+}
+
+#picture-container {
+    background-image: url(./images/plant.jpg);
+    background-size: 750px 950px;
+    height: 910px;
+}
+
+#odin-logo {
+    display: flex;
+    flex-direction: row;
+    background-color: #00000073;
+    margin-top: 13rem;
+}
+#odin-logo img {
+    height: 10rem;
+    margin-left: 9rem;
+}
+#odin-logo h1 {
+    color: whitesmoke;
+    font-family: Norse, Bold;
+    font-size: 7rem;
+    margin: 0;
+    margin-top: 1.5rem;
+    margin-right: 9rem;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 225, 225, 0.767);
+}
+
+#top-side {
+    font-size: 24px;
+    font-weight: 525;
+    padding: 3rem;
+    margin-top: 6rem;
+    width: 70%;
+}
+
+#top-side em {
+    font-weight: 500;
+}
+
+#form_title {
+    font-size: 1.6rem;
+    padding-left: 2rem;
+}
+
+#form_section {
+    padding: 1rem;
+    padding-bottom: 4rem;
+    background-color: #fff;
+}
+
+form {
+    font-size: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group_inputs {
+    display: flex;
+}
+
+.input_containers {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+    padding-bottom: 1rem;
+}
+
+.input_containers input {
+    width: 14rem;
+    height: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+}
+
+.inputs:focus {
+    outline: blue;
+    outline-style: solid;
+    outline-width: 0.1px;
+    box-shadow: 1px 2px 2px black;
+}
+
+#bottom-side {
+    padding: 2rem;
+}
+
+#bottom-side button {
+    background-color: rgba(61, 165, 61, 0.897);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}

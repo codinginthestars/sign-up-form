@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/Norse-Bold.otf">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div id="page-container">
+        <div id="picture-container">
+            <div id="odin-logo">
+                <img src="./images/odin-lined.png">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div id="right-side">
+            <div id="top-side">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div id="form_section">
+                <h2 id="form_title">Let's do this!</h2>
+                <form>
+                    <div class="group_inputs" id="name_inputs">
+                        <div class="input_containers" id="first_name_container">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" class="inputs" id="first_name" name="first_name">
+                        </div>
+
+                        <div class="input_containers" id="last_name_container">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" class="inputs" id="last_name" name="last_name">
+                        </div>  
+                    </div>
+                    <div class="group_inputs" id="contact_info">
+                        <div class="input_containers" id="email_container">
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" class="inputs" id="user_email" name="email">
+                        </div>
+                        
+                        <div class="input_containers" id="phone_number_container">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" class="inputs" id="phone_number" name="phone_number">
+                        </div>
+                    </div>
+                    <div class="group_inputs" id="password_inputs">
+                        <div class="input_containers" id="password_container">
+                            <label for="user_password">PASSWORD</label>
+                            <input type="password" class="inputs" id="user_password" name="password">
+                        </div>
+                        
+                        <div class="input_containers" id="confirm_password_container">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" class="inputs" id="confirm_password" name="password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="bottom-side">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
